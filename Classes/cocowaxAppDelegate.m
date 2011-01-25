@@ -2,7 +2,6 @@
 
 #import "cocowaxAppDelegate.h"
 #import "GameConfig.h"
-#import "HelloWorldScene.h"
 #import "RootViewController.h"
 
 @implementation cocowaxAppDelegate
