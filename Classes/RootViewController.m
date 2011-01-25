@@ -1,12 +1,4 @@
 //
-//  RootViewController.m
-//  cocowax
-//
-//  Created by David Newman on 25/01/11.
-//  Copyright Sentia 2011. All rights reserved.
-//
-
-//
 // RootViewController + iAd
 // If you want to support iAd, use this class as the controller of your iAd
 //

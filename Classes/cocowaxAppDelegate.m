@@ -1,11 +1,3 @@
-//
-//  cocowaxAppDelegate.m
-//  cocowax
-//
-//  Created by David Newman on 25/01/11.
-//  Copyright Sentia 2011. All rights reserved.
-//
-
 #import "cocos2d.h"
 
 #import "cocowaxAppDelegate.h"
@@ -109,8 +101,9 @@
 	// Removes the startup flicker
 	[self removeStartupFlicker];
 	
-	// Run the intro Scene
-	[[CCDirector sharedDirector] runWithScene: [HelloWorld scene]];		
+	// Run the scene from Lua
+	[[CCDirector sharedDirector] runWithScene: 
+	 [[[NSClassFromString(@"LuaScene") alloc] init] autorelease]];		
 }
 
 

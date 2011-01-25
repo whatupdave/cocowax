@@ -1,3 +1,6 @@
 [submodule "libs/cocos2d"]
 	path = libs/cocos2d
 	url = https://github.com/cocos2d/cocos2d-iphone.git
+[submodule "wax"]
+	path = wax
+	url = https://github.com/probablycorey/wax.git

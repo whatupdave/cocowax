@@ -1,11 +1,3 @@
-//
-//  GameConfig.h
-//  cocowax
-//
-//  Created by David Newman on 25/01/11.
-//  Copyright Sentia 2011. All rights reserved.
-//
-
 #ifndef __GAME_CONFIG_H
 #define __GAME_CONFIG_H
 
