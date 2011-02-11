@@ -25,9 +25,9 @@ Interesting parts:
 
 **main.m**
 
-    wax_startWithExtensions(luaopen_wax_http, luaopen_wax_json, luaopen_wax_xml, nil);
+    wax_start("init.lua", luaopen_wax_http, luaopen_wax_json, luaopen_wax_xml, nil);
     
-Starts up the wax Lua environment. Also loads a few extensions.
+Starts up the wax Lua environment telling wax which lua script to run. Also loads a few extensions.
 
 **data/scripts/LuaScene.lua**
 
