@@ -8,6 +8,7 @@
 int main(int argc, char *argv[]) {
 	NSAutoreleasePool *pool = [NSAutoreleasePool new];
 
+	
 	wax_start("init.lua", luaopen_wax_http, luaopen_wax_json, luaopen_wax_xml, nil);
 
 	int retVal = UIApplicationMain(argc, argv, nil, @"cocowaxAppDelegate");
