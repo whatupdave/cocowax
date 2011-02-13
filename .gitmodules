@@ -4,3 +4,6 @@
 [submodule "wax"]
 	path = wax
 	url = https://github.com/probablycorey/wax.git
+[submodule "libs/chipmunk-spacemanager"]
+	path = libs/chipmunk-spacemanager
+	url = https://github.com/snappycode/chipmunk-spacemanager.git

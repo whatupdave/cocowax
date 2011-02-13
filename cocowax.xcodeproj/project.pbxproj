@@ -78,6 +78,21 @@
 		5555B1CA1304FA9C00754CB5 /* cpVect.c in Sources */ = {isa = PBXBuildFile; fileRef = 5555B1931304FA9C00754CB5 /* cpVect.c */; };
 		5555B1CB1304FA9C00754CB5 /* prime.h in Headers */ = {isa = PBXBuildFile; fileRef = 5555B1941304FA9C00754CB5 /* prime.h */; };
 		55B7501112EE44ED00DFD997 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E916AF12EE41AF00F6037F /* libxml2.dylib */; };
+		55E4C1EC13063138000AB411 /* cpCCNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C1D213063137000AB411 /* cpCCNode.m */; };
+		55E4C1ED13063138000AB411 /* cpCCNodeImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C1D413063137000AB411 /* cpCCNodeImpl.m */; };
+		55E4C1EE13063138000AB411 /* cpCCSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C1D613063137000AB411 /* cpCCSprite.m */; };
+		55E4C1EF13063138000AB411 /* cpConstraintNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C1D813063137000AB411 /* cpConstraintNode.m */; };
+		55E4C1F013063138000AB411 /* cpShapeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C1DA13063137000AB411 /* cpShapeNode.m */; };
+		55E4C1F113063138000AB411 /* SpaceManagerCocos2d.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C1DC13063137000AB411 /* SpaceManagerCocos2d.m */; };
+		55E4C1F213063138000AB411 /* cpPulleyJoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C1DE13063137000AB411 /* cpPulleyJoint.c */; };
+		55E4C1F313063138000AB411 /* cpSpaceSerializer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C1E113063137000AB411 /* cpSpaceSerializer.cpp */; };
+		55E4C1F413063138000AB411 /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C1E413063137000AB411 /* tinystr.cpp */; };
+		55E4C1F513063138000AB411 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C1E613063137000AB411 /* tinyxml.cpp */; };
+		55E4C1F613063138000AB411 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C1E813063137000AB411 /* tinyxmlerror.cpp */; };
+		55E4C1F713063138000AB411 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C1E913063137000AB411 /* tinyxmlparser.cpp */; };
+		55E4C1F813063138000AB411 /* SpaceManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 55E4C1EB13063137000AB411 /* SpaceManager.mm */; };
+		55E4C21C130634D6000AB411 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E4C21B130634D6000AB411 /* ball.png */; };
+		55E4C36E1307D94A000AB411 /* libwax library.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E915A112EE40F200F6037F /* libwax library.a */; };
 		55E9146112EE392000F6037F /* CCAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E913B712EE392000F6037F /* CCAction.h */; };
 		55E9146212EE392000F6037F /* CCAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E913B812EE392000F6037F /* CCAction.m */; };
 		55E9146312EE392000F6037F /* CCActionCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E913B912EE392000F6037F /* CCActionCamera.h */; };
@@ -492,6 +507,31 @@
 		5555B1921304FA9C00754CB5 /* cpSpaceStep.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpSpaceStep.c; sourceTree = "<group>"; };
 		5555B1931304FA9C00754CB5 /* cpVect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpVect.c; sourceTree = "<group>"; };
 		5555B1941304FA9C00754CB5 /* prime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prime.h; sourceTree = "<group>"; };
+		55E4C1D113063137000AB411 /* cpCCNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpCCNode.h; sourceTree = "<group>"; };
+		55E4C1D213063137000AB411 /* cpCCNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cpCCNode.m; sourceTree = "<group>"; };
+		55E4C1D313063137000AB411 /* cpCCNodeImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpCCNodeImpl.h; sourceTree = "<group>"; };
+		55E4C1D413063137000AB411 /* cpCCNodeImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cpCCNodeImpl.m; sourceTree = "<group>"; };
+		55E4C1D513063137000AB411 /* cpCCSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpCCSprite.h; sourceTree = "<group>"; };
+		55E4C1D613063137000AB411 /* cpCCSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cpCCSprite.m; sourceTree = "<group>"; };
+		55E4C1D713063137000AB411 /* cpConstraintNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpConstraintNode.h; sourceTree = "<group>"; };
+		55E4C1D813063137000AB411 /* cpConstraintNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cpConstraintNode.m; sourceTree = "<group>"; };
+		55E4C1D913063137000AB411 /* cpShapeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpShapeNode.h; sourceTree = "<group>"; };
+		55E4C1DA13063137000AB411 /* cpShapeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cpShapeNode.m; sourceTree = "<group>"; };
+		55E4C1DB13063137000AB411 /* SpaceManagerCocos2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceManagerCocos2d.h; sourceTree = "<group>"; };
+		55E4C1DC13063137000AB411 /* SpaceManagerCocos2d.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceManagerCocos2d.m; sourceTree = "<group>"; };
+		55E4C1DE13063137000AB411 /* cpPulleyJoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpPulleyJoint.c; sourceTree = "<group>"; };
+		55E4C1DF13063137000AB411 /* cpPulleyJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPulleyJoint.h; sourceTree = "<group>"; };
+		55E4C1E113063137000AB411 /* cpSpaceSerializer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cpSpaceSerializer.cpp; sourceTree = "<group>"; };
+		55E4C1E213063137000AB411 /* cpSpaceSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpaceSerializer.h; sourceTree = "<group>"; };
+		55E4C1E413063137000AB411 /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinystr.cpp; sourceTree = "<group>"; };
+		55E4C1E513063137000AB411 /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinystr.h; sourceTree = "<group>"; };
+		55E4C1E613063137000AB411 /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
+		55E4C1E713063137000AB411 /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
+		55E4C1E813063137000AB411 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
+		55E4C1E913063137000AB411 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
+		55E4C1EA13063137000AB411 /* SpaceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpaceManager.h; path = "libs/chipmunk-spacemanager/src/SpaceManager.h"; sourceTree = "<group>"; };
+		55E4C1EB13063137000AB411 /* SpaceManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SpaceManager.mm; path = "libs/chipmunk-spacemanager/src/SpaceManager.mm"; sourceTree = "<group>"; };
+		55E4C21B130634D6000AB411 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 		55E913B712EE392000F6037F /* CCAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCAction.h; path = cocos2d/CCAction.h; sourceTree = "<group>"; };
 		55E913B812EE392000F6037F /* CCAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCAction.m; path = cocos2d/CCAction.m; sourceTree = "<group>"; };
 		55E913B912EE392000F6037F /* CCActionCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCActionCamera.h; path = cocos2d/CCActionCamera.h; sourceTree = "<group>"; };
@@ -846,6 +886,7 @@
 				506EDBA5102F4C9F00A389B3 /* AVFoundation.framework in Frameworks */,
 				506EE1A91030508200A389B3 /* libcocos2d libraries.a in Frameworks */,
 				55B7501112EE44ED00DFD997 /* libxml2.dylib in Frameworks */,
+				55E4C36E1307D94A000AB411 /* libwax library.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -888,13 +929,12 @@
 			isa = PBXGroup;
 			children = (
 				2D500B1D0D5A766B00DBA0E3 /* Classes */,
-				506EDAA3102F461B00A389B3 /* cocos2d Sources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				55E4C18613062D8D000AB411 /* libs */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				50F414EB1069373D002A0D5E /* Resources */,
 				55F6B8B61304F0E80019A538 /* scripts */,
-				55E915A512EE414700F6037F /* wax */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -956,6 +996,7 @@
 		50F414EB1069373D002A0D5E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				55E4C21B130634D6000AB411 /* ball.png */,
 				E02BB762126CC1E0006E46A2 /* iTunesArtwork */,
 				E02BB4FE126CA50F006E46A2 /* Icon@2x.png */,
 				E02BB4FF126CA50F006E46A2 /* Icon-Small@2x.png */,
@@ -1073,6 +1114,82 @@
 				5555B1771304FA9C00754CB5 /* src */,
 			);
 			name = Chipmunk;
+			sourceTree = "<group>";
+		};
+		55E4C18513062D7D000AB411 /* chipmunk-spacemanager */ = {
+			isa = PBXGroup;
+			children = (
+				55E4C1D013063137000AB411 /* ccExtras */,
+				55E4C1DD13063137000AB411 /* cpExtras */,
+				55E4C1E013063137000AB411 /* cpSpaceSerializer */,
+				55E4C1EA13063137000AB411 /* SpaceManager.h */,
+				55E4C1EB13063137000AB411 /* SpaceManager.mm */,
+			);
+			name = "chipmunk-spacemanager";
+			sourceTree = "<group>";
+		};
+		55E4C18613062D8D000AB411 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				55E4C18513062D7D000AB411 /* chipmunk-spacemanager */,
+				506EDAA3102F461B00A389B3 /* cocos2d Sources */,
+				55E915A512EE414700F6037F /* wax */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		55E4C1D013063137000AB411 /* ccExtras */ = {
+			isa = PBXGroup;
+			children = (
+				55E4C1D113063137000AB411 /* cpCCNode.h */,
+				55E4C1D213063137000AB411 /* cpCCNode.m */,
+				55E4C1D313063137000AB411 /* cpCCNodeImpl.h */,
+				55E4C1D413063137000AB411 /* cpCCNodeImpl.m */,
+				55E4C1D513063137000AB411 /* cpCCSprite.h */,
+				55E4C1D613063137000AB411 /* cpCCSprite.m */,
+				55E4C1D713063137000AB411 /* cpConstraintNode.h */,
+				55E4C1D813063137000AB411 /* cpConstraintNode.m */,
+				55E4C1D913063137000AB411 /* cpShapeNode.h */,
+				55E4C1DA13063137000AB411 /* cpShapeNode.m */,
+				55E4C1DB13063137000AB411 /* SpaceManagerCocos2d.h */,
+				55E4C1DC13063137000AB411 /* SpaceManagerCocos2d.m */,
+			);
+			name = ccExtras;
+			path = "libs/chipmunk-spacemanager/src/ccExtras";
+			sourceTree = "<group>";
+		};
+		55E4C1DD13063137000AB411 /* cpExtras */ = {
+			isa = PBXGroup;
+			children = (
+				55E4C1DE13063137000AB411 /* cpPulleyJoint.c */,
+				55E4C1DF13063137000AB411 /* cpPulleyJoint.h */,
+			);
+			name = cpExtras;
+			path = "libs/chipmunk-spacemanager/src/cpExtras";
+			sourceTree = "<group>";
+		};
+		55E4C1E013063137000AB411 /* cpSpaceSerializer */ = {
+			isa = PBXGroup;
+			children = (
+				55E4C1E113063137000AB411 /* cpSpaceSerializer.cpp */,
+				55E4C1E213063137000AB411 /* cpSpaceSerializer.h */,
+				55E4C1E313063137000AB411 /* tinyxml */,
+			);
+			name = cpSpaceSerializer;
+			path = "libs/chipmunk-spacemanager/src/cpSpaceSerializer";
+			sourceTree = "<group>";
+		};
+		55E4C1E313063137000AB411 /* tinyxml */ = {
+			isa = PBXGroup;
+			children = (
+				55E4C1E413063137000AB411 /* tinystr.cpp */,
+				55E4C1E513063137000AB411 /* tinystr.h */,
+				55E4C1E613063137000AB411 /* tinyxml.cpp */,
+				55E4C1E713063137000AB411 /* tinyxml.h */,
+				55E4C1E813063137000AB411 /* tinyxmlerror.cpp */,
+				55E4C1E913063137000AB411 /* tinyxmlparser.cpp */,
+			);
+			path = tinyxml;
 			sourceTree = "<group>";
 		};
 		55E9143112EE392000F6037F /* Platforms */ = {
@@ -1883,6 +2000,7 @@
 				E02BB507126CA50F006E46A2 /* Icon-Small-50.png in Resources */,
 				E02BB508126CA50F006E46A2 /* Icon-72.png in Resources */,
 				E02BB763126CC1E0006E46A2 /* iTunesArtwork in Resources */,
+				55E4C21C130634D6000AB411 /* ball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1912,6 +2030,19 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1F3B9A2D0EF2145700286867 /* cocowaxAppDelegate.m in Sources */,
 				E0F80F60120A0182005866B8 /* RootViewController.m in Sources */,
+				55E4C1EC13063138000AB411 /* cpCCNode.m in Sources */,
+				55E4C1ED13063138000AB411 /* cpCCNodeImpl.m in Sources */,
+				55E4C1EE13063138000AB411 /* cpCCSprite.m in Sources */,
+				55E4C1EF13063138000AB411 /* cpConstraintNode.m in Sources */,
+				55E4C1F013063138000AB411 /* cpShapeNode.m in Sources */,
+				55E4C1F113063138000AB411 /* SpaceManagerCocos2d.m in Sources */,
+				55E4C1F213063138000AB411 /* cpPulleyJoint.c in Sources */,
+				55E4C1F313063138000AB411 /* cpSpaceSerializer.cpp in Sources */,
+				55E4C1F413063138000AB411 /* tinystr.cpp in Sources */,
+				55E4C1F513063138000AB411 /* tinyxml.cpp in Sources */,
+				55E4C1F613063138000AB411 /* tinyxmlerror.cpp in Sources */,
+				55E4C1F713063138000AB411 /* tinyxmlparser.cpp in Sources */,
+				55E4C1F813063138000AB411 /* SpaceManager.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2132,10 +2263,10 @@
 				GCC_PREFIX_HEADER = cocowax_Prefix.pch;
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = libs/cocos2d/external/Chipmunk/Include/Chipmunk;
 				INFOPLIST_FILE = Resources/Info.plist;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
-					"\"-lwax library\"",
 					"-all_load",
 					"-ObjC",
 				);
@@ -2156,10 +2287,10 @@
 				GCC_PREFIX_HEADER = cocowax_Prefix.pch;
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = libs/cocos2d/external/Chipmunk/Include/Chipmunk;
 				INFOPLIST_FILE = Resources/Info.plist;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
-					"\"-lwax library\"",
 					"-all_load",
 					"-ObjC",
 				);
@@ -2177,6 +2308,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = libs/cocos2d/external/Chipmunk/Include/Chipmunk;
 				PREBINDING = NO;
 				PRODUCT_NAME = "cocos2d libraries";
@@ -2191,6 +2323,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = libs/cocos2d/external/Chipmunk/Include/Chipmunk;
 				PREBINDING = NO;
 				PRODUCT_NAME = "cocos2d libraries";
