@@ -6,17 +6,17 @@ end
 function ccc3_from(hex)
 	local s = string.format("%08x",hex)
 	return ccc3(
-		as_hex(string.sub(s,1,2)), 
-		as_hex(string.sub(s,3,4)), 
+		as_hex(string.sub(s,1,2)),
+		as_hex(string.sub(s,3,4)),
 		as_hex(string.sub(s,5,6)))
 end
 
 function ccc4_from(hex)
 	local s = string.format("%08x",hex)
 	return ccc3(
-		as_hex(string.sub(s,1,2)), 
-		as_hex(string.sub(s,3,4)), 
-		as_hex(string.sub(s,5,6)), 
+		as_hex(string.sub(s,1,2)),
+		as_hex(string.sub(s,3,4)),
+		as_hex(string.sub(s,5,6)),
 		as_hex(string.sub(s,7,8)))
 end
 
@@ -162,7 +162,7 @@ color = {
 	White = 0xFFFFFFFF,
 	WhiteSmoke = 0xF5F5F5FF,
 	Yellow = 0xFFFF00FF,
-	YellowGreen = 0x9ACD32FF	
+	YellowGreen = 0x9ACD32FF
 }
 
 
